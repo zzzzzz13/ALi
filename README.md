@@ -102,7 +102,7 @@ If you liked this repository, feel free to leave a star ⭐ to help promote Alin
 
 - Hello! Here is another tutorial in which you will learn how to use the mongodb database.
 
-- First, let's download the project (you can do this by clicking on [me *nya ;3*](https://github.com/brblacky/Alina/archive/master.zip))
+- First, let's download the project (you can do this by clicking on [me *Alina*](https://github.com/brblacky/Alina/archive/master.zip))
 
 - Next, we need to create a server. This is the longest stage. So make some tea and sit down at the computer: 3
 
