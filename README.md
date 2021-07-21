@@ -1,6 +1,6 @@
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/brblacky/Alina)
-[![Run on Repl.it](https://repl.it/badge/github/brblacky/Alina)](https://repl.it/github/brblacky/Alina)
-[![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/brblacky/alina)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/brblacky/ALi)
+[![Run on Repl.it](https://repl.it/badge/github/brblacky/ALi)](https://repl.it/github/brblacky/ALi)
+[![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/brblacky/ALi)
 
 
 [![Version][version-shield]](version-url)
@@ -9,27 +9,27 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-<center><img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Alina&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=gradient" /></center>
+<center><img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=ALi&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=gradient" /></center>
 
 
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/brblacky/Alina">
+  <a href="https://github.com/brblacky/ALi">
     <img src="https://cdn.discordapp.com/attachments/841728122633715743/865610713971687484/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3830343036353737343633.png" alt="Pbot-plus" width="200" height="200">
   </a>
 
-  <h3 align="center">Alina Bot</h3>
+  <h3 align="center">ALi</h3>
 
   <p align="center">
-    Alina a powerful Discord Bot
+    ALi a powerful Discord Bot
     <br />
     <br />
     <a href="https://discord.com/api/oauth2/authorize?client_id=841716414053351486&permissions=8&scope=bot">Invite Alina</a>
     ·
-    <a href="https://github.com/brblacky/Alina/issues">Report Bug</a>
+    <a href="https://github.com/brblacky/ALi/issues">Report Bug</a>
     ·
-    <a href="https://github.com/brblacky/Alina/issues">Request Feature</a>
+    <a href="https://github.com/brblacky/ALi/issues">Request Feature</a>
   </p>
 </p>
 
@@ -45,9 +45,9 @@
 
 <!-- INSTALL -->
 ## 🚀 Installation
- You can add Alina to your server with [this](https://discord.com/api/oauth2/authorize?client_id=841716414053351486&permissions=8&scope=bot) link! Alternatively, you can clone this repo and host the bot yourself.
+ You can add ALi to your server with [this](https://discord.com/api/oauth2/authorize?client_id=841716414053351486&permissions=8&scope=bot) link! Alternatively, you can clone this repo and host the bot yourself.
 ```
-git clone https://github.com/brblacky/Alina.git
+git clone https://github.com/brblacky/ALi.git
 ```
 After cloning, run an
 ```
@@ -75,7 +75,7 @@ MONGO_URI= `The Mongo URI, if you want to use the database-reliant features`
 
 ## 🌀 About
 
-Alina is an open source, fully customizable Discord bot that is constantly growing. She comes packaged with a variety of commands and a multitude of settings that can be tailored to your server's specific needs. Her codebase also serves as a base framework to easily create Discord bots of all kinds. You can invite her to your Discord server using [this](https://discord.com/api/oauth2/authorize?client_id=841716414053351486&permissions=8&scope=bot) link! Also, you can join the official [Support Server](https://discord.gg/uAVaeCP9VH) for all questions, suggestions, and assistance!
+ALi is an open source, fully customizable Discord bot that is constantly growing. She comes packaged with a variety of commands and a multitude of settings that can be tailored to your server's specific needs. Her codebase also serves as a base framework to easily create Discord bots of all kinds. You can invite her to your Discord server using [this](https://discord.com/api/oauth2/authorize?client_id=841716414053351486&permissions=8&scope=bot) link! Also, you can join the official [Support Server](https://discord.gg/uAVaeCP9VH) for all questions, suggestions, and assistance!
 
 If you liked this repository, feel free to leave a star ⭐ to help promote Alina!
 
@@ -168,15 +168,15 @@ If you liked this repository, feel free to leave a star ⭐ to help promote Alin
 
 Distributed under the MIT License. See [`LICENSE`](https://github.com/brblacky/Alina/blob/master/LICENSE) for more information.
 
-[version-shield]: https://img.shields.io/github/package-json/v/brblacky/Alina?style=for-the-badge
-[version-url]: https://github.com/brblacky/Alina
-[contributors-shield]: https://img.shields.io/github/contributors/brblacky/Alina.svg?style=for-the-badge
-[contributors-url]: https://github.com/brblacky/Alina/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/brblacky/Alina.svg?style=for-the-badge
-[forks-url]: https://github.com/brblacky/Alina/network/members
-[stars-shield]: https://img.shields.io/github/stars/brblacky/Alina.svg?style=for-the-badge
-[stars-url]: https://github.com/brblacky/Alina/stargazers
-[issues-shield]: https://img.shields.io/github/issues/brblacky/Alina.svg?style=for-the-badge
-[issues-url]: https://github.com/brblacky/Alina/issues
-[license-shield]: https://img.shields.io/github/license/brblacky/Alina.svg?style=for-the-badge
-[license-url]: https://github.com/brblacky/Alina/blob/master/LICENSE
+[version-shield]: https://img.shields.io/github/package-json/v/brblacky/ALi?style=for-the-badge
+[version-url]: https://github.com/brblacky/ALi
+[contributors-shield]: https://img.shields.io/github/contributors/brblacky/ALi.svg?style=for-the-badge
+[contributors-url]: https://github.com/brblacky/ALi/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/brblacky/ALi.svg?style=for-the-badge
+[forks-url]: https://github.com/brblacky/ALi/network/members
+[stars-shield]: https://img.shields.io/github/stars/brblacky/ALi.svg?style=for-the-badge
+[stars-url]: https://github.com/brblacky/ALi/stargazers
+[issues-shield]: https://img.shields.io/github/issues/brblacky/ALi.svg?style=for-the-badge
+[issues-url]: https://github.com/brblacky/ALi/issues
+[license-shield]: https://img.shields.io/github/license/brblacky/ALi.svg?style=for-the-badge
+[license-url]: https://github.com/brblacky/ALi/blob/master/LICENSE
