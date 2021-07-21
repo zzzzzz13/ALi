@@ -25,7 +25,7 @@
     ALi a powerful Discord Bot
     <br />
     <br />
-    <a href="https://discord.com/api/oauth2/authorize?client_id=841716414053351486&permissions=8&scope=bot">Invite Alina</a>
+    <a href="https://discord.com/api/oauth2/authorize?client_id=841716414053351486&permissions=8&scope=bot">Invite ALi</a>
     ·
     <a href="https://github.com/brblacky/ALi/issues">Report Bug</a>
     ·
