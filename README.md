@@ -81,7 +81,7 @@ If you liked this repository, feel free to leave a star ⭐ to help promote Alin
 
 ## 💌 Support Server
 [![DiscordBanner](https://invidget.switchblade.xyz/uAVaeCP9VH)](https://discord.gg/uAVaeCP9VH)
-[Support Server](https://discord.gg/uAVaeCP9VH) - Alina's Support Server Invite
+[Support Server](https://discord.gg/uAVaeCP9VH) - Ali's Support Server Invite
 :----:
 
 ## 👥 TEAMS ##
