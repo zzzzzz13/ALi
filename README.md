@@ -166,7 +166,7 @@ If you liked this repository, feel free to leave a star ⭐ to help promote Alin
 
 ## 🔐 License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License. See [`LICENSE`](https://github.com/brblacky/Alina/blob/master/LICENSE) for more information.
 
 [version-shield]: https://img.shields.io/github/package-json/v/brblacky/Alina?style=for-the-badge
 [version-url]: https://github.com/brblacky/Alina
