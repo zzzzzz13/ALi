@@ -65,7 +65,7 @@ Change `example.env` to `.env` and fill out the values in: `.env`
 
 DISCORD_TOKEN=  `The Discord Bot Token, get one at https://discord.com/developers/applications`
 
-
+COOKIE=  `The youtube Cooke, for Multiple guild`
 
 MONGO_URI= `The Mongo URI, if you want to use the database-reliant features`
 
