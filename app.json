@@ -10,6 +10,10 @@
       "value": "",
       "required": true
     },
+    "COOKIE":{
+    "description": "Your Youtube Cooke",
+      "required": false
+     },
     "DISCORD_TOKEN": {
       "description": "Your bot's bot token.",
       "required": true
