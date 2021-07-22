@@ -77,7 +77,7 @@ MONGO_URI= `The Mongo URI, if you want to use the database-reliant features`
 
 ALi is an open source, fully customizable Discord bot that is constantly growing. She comes packaged with a variety of commands and a multitude of settings that can be tailored to your server's specific needs. Her codebase also serves as a base framework to easily create Discord bots of all kinds. You can invite her to your Discord server using [this](https://discord.com/api/oauth2/authorize?client_id=841716414053351486&permissions=8&scope=bot) link! Also, you can join the official [Support Server](https://discord.gg/uAVaeCP9VH) for all questions, suggestions, and assistance!
 
-If you liked this repository, feel free to leave a star ⭐ to help promote Alina!
+If you liked this repository, feel free to leave a star ⭐ to help promote !
 
 ## 💌 Support Server
 [![DiscordBanner](https://invidget.switchblade.xyz/uAVaeCP9VH)](https://discord.gg/uAVaeCP9VH)
@@ -102,7 +102,7 @@ If you liked this repository, feel free to leave a star ⭐ to help promote Alin
 
 - Hello! Here is another tutorial in which you will learn how to use the mongodb database.
 
-- First, let's download the project (you can do this by clicking on [me *Alina*](https://github.com/brblacky/Alina/archive/master.zip))
+- First, let's download the project (you can do this by clicking on [me *ALi*](https://github.com/brblacky/ALi/archive/master.zip))
 
 - Next, we need to create a server. This is the longest stage. So make some tea and sit down at the computer: 3
 
@@ -166,7 +166,7 @@ If you liked this repository, feel free to leave a star ⭐ to help promote Alin
 
 ## 🔐 License
 
-Distributed under the MIT License. See [`LICENSE`](https://github.com/brblacky/Alina/blob/master/LICENSE) for more information.
+Distributed under the MIT License. See [`LICENSE`](https://github.com/brblacky/Ali/blob/master/LICENSE) for more information.
 
 [version-shield]: https://img.shields.io/github/package-json/v/brblacky/ALi?style=for-the-badge
 [version-url]: https://github.com/brblacky/ALi
