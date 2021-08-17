@@ -80,8 +80,8 @@ ALi is an open source, fully customizable Discord bot that is constantly growing
 If you liked this repository, feel free to leave a star ⭐ to help promote !
 
 ## 💌 Support Server
-[![DiscordBanner](https://invidget.switchblade.xyz/uAVaeCP9VH)](https://discord.gg/uAVaeCP9VH)
-[Support Server](https://discord.gg/uAVaeCP9VH) - Ali's Support Server Invite
+[![DiscordBanner](https://invidget.switchblade.xyz/gfcv94hDhv)](https://discord.gg/gfcv94hDhv)
+[Support Server](https://discord.gg/gfcv94hDhv) - Ali's Support Server Invite
 :----:
 
 ## 👥 TEAMS ##
