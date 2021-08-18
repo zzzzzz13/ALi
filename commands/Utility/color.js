@@ -19,7 +19,7 @@ module.exports = {
       new MessageEmbed()
       .setColor(`#${color}`)
       .setImage('https://dummyimage.com/200/' + color)
-      .setFooter(`Color ${color} | \©️${new Date().getFullYear()} Alina`)
+      .setFooter(`Color ${color} | \©️${new Date().getFullYear()} ${client.config.foot}`)
     );
   }
 };

@@ -39,7 +39,7 @@ module.exports = {
         let lyricsEmbed = new MessageEmbed()
             .setColor(color)
             .setDescription(`**Lyrics** of **${song}**\n${lyrics}`)
-            .setFooter(`Music | \©️${new Date().getFullYear()} Alina`);
+            .setFooter(`Music | \©️${new Date().getFullYear()} ${client.config.foot}`);
 
         if (lyricsEmbed.description.length >= 2048)
         lyricsEmbed.description = `${lyricsEmbed.description.substr(0, 2045)}...`;

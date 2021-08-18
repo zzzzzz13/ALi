@@ -21,7 +21,7 @@ module.exports = {
     const { color } = client.config;
     const { exceptions, isActive } = client.guildProfiles.get(message.guild.id).xp;
     const embed = new MessageEmbed()
-    .setFooter(`XP Leaderboard | \©️${new Date().getFullYear()} Alina`)
+    .setFooter(`XP Leaderboard | \©️${new Date().getFullYear()} ${client.config.foot}`)
     .setThumbnail('https://i.imgur.com/qkBQB8V.png')
     .setColor('RED');
 
@@ -50,7 +50,7 @@ module.exports = {
       if (err) {
         return message.channel.send(
           embed.setAuthor('Database Error','https://cdn.discordapp.com/emojis/767062250279927818.png?v=1')
-          .setDescription('Alina\'s Database Provider responded with an error: ' + err.name)
+          .setDescription('ALi\'s Database Provider responded with an error: ' + err.name)
         );
       };
 
@@ -75,7 +75,7 @@ module.exports = {
       return message.channel.send(
         new MessageEmbed()
         .setColor(color)
-        .setFooter(`XP Leaderboard | \©️${new Date().getFullYear()} Alina`)
+        .setFooter(`XP Leaderboard | \©️${new Date().getFullYear()} ${client.config.foot}`)
         .setAuthor(`🏆 ${message.guild.name} Leaderboard`, message.guild.iconURL({format: 'png', dynamic: true }) || null)
         .addField(`**${members.get(docs[0].id).displayName || '<Unknown User>'}** ranked the highest with **${text.commatize(docs[0].data.xp)}**XP!`,
         [

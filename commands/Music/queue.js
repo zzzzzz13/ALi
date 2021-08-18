@@ -28,7 +28,7 @@ module.exports = {
         const embed = new MessageEmbed()
             .setColor(color)
             .setDescription('Current queue:\n' + queue.songs.map((song, id) => `**${id + 1}**. [${song.name}](${song.url}) - [${song.user}] \`${song.formattedDuration}\``).slice(0, 10).join("\n"))
-            .setFooter(`Music | \©️${new Date().getFullYear()} Alina`);
+            .setFooter(`Music | \©️${new Date().getFullYear()} ${client.config.foot}`);
         message.channel.send(embed);
     }
 }

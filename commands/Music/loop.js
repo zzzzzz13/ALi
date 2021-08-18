@@ -30,7 +30,7 @@ module.exports = {
         const embed = new MessageEmbed()
             .setColor(color)
             .setDescription("Set repeat mode to **" + mode + "**")
-            .setFooter(`Music | \©️${new Date().getFullYear()} Alina`);
+            .setFooter(`Music | \©️${new Date().getFullYear()} ${client.config.foot}`);
         message.channel.send(embed);
     }
 }

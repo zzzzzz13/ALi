@@ -1,7 +1,7 @@
 const { MessageEmbed } = require("discord.js");
 module.exports = {
   name: 'volume',
-  aliases: [""],
+  aliases: ["vol"],
   guildOnly: true,
   permissions: [],
   clientPermissions: [],
@@ -37,7 +37,7 @@ module.exports = {
         const embed = new MessageEmbed()
             .setColor(color)
             .setDescription(`**Volume** set to \`${volume}\``)
-            .setFooter(`Music | \©️${new Date().getFullYear()} Alina`);
+            .setFooter(`Music | \©️${new Date().getFullYear()} ${client.config.foot}`);
         message.channel.send(embed);
     }
 }

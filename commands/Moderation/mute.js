@@ -1,5 +1,5 @@
 const text = require('../../util/string');
-
+const em = require('../../assets/json/emojis.json');
 module.exports = {
   name: 'mute',
   aliases: [ 'deafen', 'silence', 'shut' ],

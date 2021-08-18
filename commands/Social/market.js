@@ -27,9 +27,9 @@ module.exports = {
     const pages = new Pages(_.chunk(selected, 24).map((chunk, i, o) => {
       return new MessageEmbed()
       .setColor(color)
-      .setTitle('Alina\'s Market')
+      .setTitle('ALi\'s Market')
       .setDescription('You can view all of the items in the market at once ')
-      .setFooter(`Market | \©️${new Date().getFullYear()} Alina\u2000\u2000•\u2000\u2000Page ${i+1} of ${o.length}`)
+      .setFooter(`Market | \©️${new Date().getFullYear()} ${client.config.foot}\u2000\u2000•\u2000\u2000Page ${i+1} of ${o.length}`)
       .addFields(...chunk.map(item => {
         return {
           inline: true,

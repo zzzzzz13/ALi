@@ -14,7 +14,7 @@ module.exports = {
     'resetuserxp 782939405931123456'
   ],
   run: async (client, message ) => {
-    const match = message.content.match(/\d{17,19}/)[0] || ' ';
+    const match = message.content.match(/\d{17,19}/)|| [0] || ' ';
 
     if (!match){
       return message.channel.send(`${em.error} | \`**${message.author.tag}**, Please mention the user whose xp needs resetting.`);

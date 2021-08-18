@@ -1,5 +1,5 @@
 const list = require('../../models/GuildWatchlist');
-
+const em = require('../../assets/json/emojis.json');
 module.exports = {
   name: 'setanischedch',
   aliases: [ 'setanischedulechannel', 'setanischedulech', 'setanischedchannel' ],
@@ -20,8 +20,8 @@ module.exports = {
     } else if (!doc){
       doc = new list({ _id: message.guild.id });
     };
-
-    const channelID = channel.match(/\d{17,19}/)[0];
+    
+    const channelID = (channel.match(/\d{17,19}/)||[])[0];
     channel = message.guild.channels.cache.get(channelID);
 
     if (!channel || !['text', 'news'].includes(channel.type)){

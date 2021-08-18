@@ -52,7 +52,7 @@ module.exports = {
       return message.channel.send(
         new MessageEmbed()
         .setColor('GREEN')
-        .setFooter(`XP | \©️${new Date().getFullYear()} Alina`)
+        .setFooter(`XP | \©️${new Date().getFullYear()} ${client.config.foot}`)
         .setDescription([
           `${em.acm}\u2000\u2000|\u2000\u2000`,
           'XP [Experience Points System] will now be disabled on ',

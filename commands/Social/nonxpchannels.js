@@ -28,7 +28,7 @@ module.exports = {
       return message.channel.send(
         new MessageEmbed()
         .setColor(color)
-        .setFooter(`XP | \©️${new Date().getFullYear()} Alina`)
+        .setFooter(`XP | \©️${new Date().getFullYear()} ${client.config.foot}`)
         .setDescription([
             '\\⚠️\u2000\u2000|\u2000\u2000',
             `XP SYSTEM are disabled on ${text.joinArray(channels)}`

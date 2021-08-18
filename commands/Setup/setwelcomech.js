@@ -42,7 +42,7 @@ module.exports = {
       return message.channel.send(
         new MessageEmbed()
         .setColor('GREEN')
-        .setFooter(`Member Greeter | \©️${new Date().getFullYear()} Alina`)
+        .setFooter(`Member Greeter | \©️${new Date().getFullYear()} ${client.config.foot}`)
         .setDescription([
           `${em.acm}\u2000\u2000|\u2000\u2000`,
           `Successfully set the welcome channel to ${channel}!\n\n`,

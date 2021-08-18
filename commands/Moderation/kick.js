@@ -66,7 +66,7 @@ module.exports = {
     await member.send(`**${message.author.tag}** kicked you from ${message.guild.name}!\n**Reason**: ${reason.join(' ') || 'Unspecified.'}`)
     .catch(() => null);
 
-    return member.kick({ reason: `Alina Kick Command: ${message.author.tag}: ${reason.join(' ') || 'Unspecified'}`})
+    return member.kick({ reason: `ALi Kick Command: ${message.author.tag}: ${reason.join(' ') || 'Unspecified'}`})
     .then(_member => message.channel.send(`${em.success} Successfully kicked **${_member.user.tag}**`))
     .catch(() => message.channel.send(`${em.error} | Failed to kicked **${member.user.tag}**!`));
   }

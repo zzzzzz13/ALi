@@ -30,7 +30,7 @@ module.exports = {
             const embed = new MessageEmbed()
                 .setColor(color)
                 .setDescription(`**Resumed** the song!`)
-                .setFooter(`Music | \©️${new Date().getFullYear()} Alina`);
+                .setFooter(`Music | \©️${new Date().getFullYear()} ${client.config.foot}`);
             return message.channel.send(embed);
         }
 
@@ -39,7 +39,7 @@ module.exports = {
         const embed = new MessageEmbed()
             .setColor(color)
             .setDescription(`**Paused** the song!`)
-            .setFooter(`Music | \©️${new Date().getFullYear()} Alina`);
+            .setFooter(`Music | \©️${new Date().getFullYear()} ${client.config.foot}`);
         message.channel.send(embed);
     }
 }

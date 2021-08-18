@@ -18,9 +18,9 @@ module.exports = {
       return message.channel.send(`${em.error} | \`[DATABASE_ERR]:\` The database responded with error: ${err.name}`);
     } else if (!doc){
       doc = new profile({ _id: message.author.id });
-    };
-
-    const hex = color.match(/[0-9a-f]{6}|default/i)[0];
+    }; 
+    
+   const hex = color.match(/^#[a-f0-9]{6}$/i)||[0];
 
     if (!hex){
       return message.channel.send(`${em.error} | **${message.author.tag}**, please supply a valid HEX for the color. You may go to <https://www.google.com/search?q=color+picker> to get the desired hex. You may type \`default\` to revert the color to default.`);

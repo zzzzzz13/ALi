@@ -47,7 +47,7 @@ module.exports = {
       .setColor('#e86222')
       .setURL(defs.urbanURL)
       .setTitle(`Definition of ${defs.word}`)
-      .setFooter(`Define | \©️${new Date().getFullYear()} Alina`)
+      .setFooter(`Define | \©️${new Date().getFullYear()} ${client.config.foot}`)
       .setAuthor('Urban Dictionary', 'https://files.catbox.moe/kkkxw3.png', 'https://www.urbandictionary.com/')
       .addFields([
         {

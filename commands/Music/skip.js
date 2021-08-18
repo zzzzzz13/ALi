@@ -1,7 +1,7 @@
 const { MessageEmbed } = require("discord.js");
 module.exports = {
   name: 'skip',
-  aliases: [""],
+  aliases: ["s"],
   guildOnly: true,
   permissions: [],
   clientPermissions: [],

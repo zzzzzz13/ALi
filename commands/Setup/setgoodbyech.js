@@ -42,7 +42,7 @@ module.exports = {
       return message.channel.send(
         new MessageEmbed()
         .setColor('GREEN')
-        .setFooter(`Leaving Member Announcer | \©️${new Date().getFullYear()} Alina`)
+        .setFooter(`Leaving Member Announcer | \©️${new Date().getFullYear()} ${client.config.foot}`)
         .setDescription([
           `${em.acm}\u2000\u2000|\u2000\u2000`,
           `Successfully set the goodbye channel to ${channel}!\n\n`,

@@ -26,7 +26,7 @@ module.exports = {
         const embed = new MessageEmbed()
             .setColor(color)
             .setDescription("**Leave** the voice channel.")
-            .setFooter(`Music | \©️${new Date().getFullYear()} Alina`);
+            .setFooter(`Music | \©️${new Date().getFullYear()} ${client.config.foot}`);
         return message.channel.send(embed);
     }
 }
