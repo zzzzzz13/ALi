@@ -26,7 +26,7 @@ module.exports = {
       .setColor(color)
       .setAuthor(`${data.category} Joke`)
       .setThumbnail('https://i.imgur.com/KOZUjcc.gif')
-      .setFooter(`Joke | \©️${new Date().getFullYear()} Alina`)
+      .setFooter(`Joke | \©️${new Date().getFullYear()} ${client.config.foot}`)
       .setDescription(data.type === 'twopart' ? `${data.setup}\n\n||${data.delivery}||` : data.joke)
     );
   }

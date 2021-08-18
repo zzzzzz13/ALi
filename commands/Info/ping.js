@@ -16,7 +16,7 @@ module.exports = {
    const embed = new MessageEmbed()
             .setColor(color)
             .setDescription(`Ping : **${client.ws.ping}**ms`)
-            .setFooter(`Ping | \©️${new Date().getFullYear()} Alina`);
+            .setFooter(`Ping | \©️${new Date().getFullYear()} ${client.config.foot}`);
         message.channel.send(embed);
     }
 }

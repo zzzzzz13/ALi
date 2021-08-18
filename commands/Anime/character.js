@@ -32,7 +32,7 @@ module.exports = {
     .setColor('YELLOW')
     .setDescription(`Searching for character named **${query}** on [MyAnimeList](https://myanimelist.net 'Homepage').`)
     .setThumbnail('https://i.imgur.com/u6ROwvK.gif')
-    .setFooter(`Character Query with  | \©️${new Date().getFullYear()} Alina`);
+    .setFooter(`Character Query with  | \©️${new Date().getFullYear()}${client.config.foot}`);
 
     const msg = await message.channel.send(embed);
 

@@ -34,7 +34,7 @@ module.exports = {
     return message.channel.send(
       new MessageEmbed()
       .setColor(color)
-      .setFooter(`Horoscope | \©️${new Date().getFullYear()} Alina`)
+      .setFooter(`Horoscope | \©️${new Date().getFullYear()} ${client.config.foot}`)
       .setAuthor(signs[sign.toLowerCase()] + ' ' + data.sunsign || sign)
       .setDescription(data.horoscope.replace('(c) Kelli Fox, The Astrologer, http://new.theastrologer.com', ''))
       .addFields([

@@ -19,7 +19,7 @@ module.exports = {
       .setDescription(`${message.author} just committed a suicide. Horrible.`)
       .setColor(color)
       .setImage(client.images.suicide())
-      .setFooter(`Action Commands | \©️${new Date().getFullYear()} Alina`)
+      .setFooter(`Action Commands | \©️${new Date().getFullYear()} ${client.config.foot}`)
     );
   }
 };

@@ -26,7 +26,7 @@ module.exports = {
       new MessageEmbed()
       .setColor(color)
       .setTitle(data.slip.advice)
-      .setFooter(`Advice | \©️${new Date().getFullYear()} Alina`)
+      .setFooter(`Advice | \©️${new Date().getFullYear()} ${client.config.foot}`)
     );
   }
 };

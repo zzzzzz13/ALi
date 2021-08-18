@@ -25,7 +25,7 @@ module.exports = {
   run: (client, message) => list.findById(message.guild.id, async (err, doc) => {
 
     if (err){
-      return message.channel.send(`\`${em.error} [DATABASE_ERR]:\` The database responded with error: ${err.name}`);
+      return message.channel.send(`${em.error} | \`[DATABASE_ERR]:\` The database responded with error: ${err.name}`);
     } else if (!doc){
       doc = new list({ _id: message.guild.id });
     };
@@ -37,7 +37,7 @@ module.exports = {
     const anischedch = message.guild.channels.cache.get(doc.channelID);
 
     if (!anischedch){
-      return message.channel.send(`\\${em.error} **${message.member.displayName}**, This server's anischedule feature has been disabled.`);
+      return message.channel.send(`${em.error} **${message.member.displayName}**, This server's anischedule feature has been disabled.`);
     } else if (!doc.data.length){
       return message.channel.send(
         embed.setAuthor('No Subscription','https://cdn.discordapp.com/emojis/767062250279927818.png?v=1')
@@ -84,7 +84,7 @@ module.exports = {
         .setFooter([
           `Anischedule Watchlist`,
           `Page ${i + 1} of ${descriptions.length}`,
-          `\©️${new Date().getFullYear()} Alina`
+          `\©️${new Date().getFullYear()} ${client.config.foot}`
         ].join('\u2000\u2000•\u2000\u2000'))
         .addField('Tips', [
           `- Use [\`${client.prefix}watch\`](https://discord.gg/uAVaeCP9VH) to add subscription`,

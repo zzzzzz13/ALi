@@ -21,7 +21,7 @@ module.exports = {
     const { color } = client.config;
     const embed = new MessageEmbed()
     .setColor(color)
-    .setFooter(`Action Commands | \©️${new Date().getFullYear()} Alina`);
+    .setFooter(`Action Commands | \©️${new Date().getFullYear()} ${client.config.foot}`);
 
     if (!message.mentions.members.size){
 

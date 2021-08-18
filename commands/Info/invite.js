@@ -17,7 +17,7 @@ module.exports = {
         .setTitle(`${client.user.username}`)
         .setDescription(`Want to invite me to your server? than [click here](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot) to invite me to your server.`)
         .setColor(color)
-        .setFooter(`Invite | \©️${new Date().getFullYear()} Alina`)
+        .setFooter(`Invite | \©️${new Date().getFullYear()} ${client.config.foot}`)
         .setTimestamp();
 
         const invite = new MessageButton()

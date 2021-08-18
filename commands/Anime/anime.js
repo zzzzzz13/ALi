@@ -71,7 +71,7 @@ module.exports = {
       .setColor(color)
       .setURL(data.url)
       .setThumbnail(data.picture || null)
-      .setFooter(`Anime Query with | \©️${new Date().getFullYear()} Aline`)
+      .setFooter(`Anime Query with | \©️${new Date().getFullYear()} ${client.config.foot}`)
       .setTitle(text.truncate(data.englishTitle || data.title, 200))
       .setDescription([
         [

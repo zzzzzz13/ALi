@@ -18,7 +18,7 @@ module.exports = {
       .setColor(color)
       .setDescription(`${message.author} started crying!`)
       .setImage(client.images.cry())
-      .setFooter(`Action Commands | \©️${new Date().getFullYear()} Alina`)
+      .setFooter(`Action Commands | \©️${new Date().getFullYear()} ${client.config.foot}`)
     );
   }
 };

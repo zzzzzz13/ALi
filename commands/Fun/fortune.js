@@ -19,7 +19,7 @@ module.exports = {
     new MessageEmbed()
     .setColor('RANDOM')
     .setAuthor(message.author.tag)
-    .setFooter(`Fortune | \©️${new Date().getFullYear()} Alina`)
+    .setFooter(`Fortune | \©️${new Date().getFullYear()} ${client.config.foot}`)
     .setDescription(fortunes[Math.floor(Math.random() * fortunes.length)])
   )
 };

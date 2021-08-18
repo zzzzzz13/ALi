@@ -54,7 +54,7 @@ module.exports = {
     return message.channel.send(
       new MessageEmbed()
       .setColor(color)
-      .setFooter(`Profile | \©️${new Date().getFullYear()} Alina`)
+      .setFooter(`Profile | \©️${new Date().getFullYear()} ${client.config.foot}`)
       .setAuthor(`${response.username}'s Profile`, response.image_url, response.url)
       .setDescription([
         text.truncate((response.about || '').replace(/(<([^>]+)>)/ig, ''), 350, `...[Read More](${response.url})`),

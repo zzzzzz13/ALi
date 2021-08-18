@@ -33,7 +33,7 @@ module.exports = {
     ][Math.floor(rate / 10)];
 
     if ([
-      'alina', 'aalina', 'alina2021', 'alina blacky',
+      'ali', 'aali', 'ali2021', 'ali blacky',
       'vemon', 'venom amina', 'blackyvenomalina'
     ].includes(raw.toLowerCase())){
       rate = 100;

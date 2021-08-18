@@ -24,7 +24,7 @@ module.exports = {
       .addField(`*Quoted from ${anime}*`,`${quote}\n\n-*${name}*`)
       .setImage(image)
       .setTimestamp()
-      .setFooter(`Anime Quotes | \©️${new Date().getFullYear()} Alina`)
+      .setFooter(`Anime Quotes | \©️${new Date().getFullYear()} ${client.config.foot}`)
     );
   }
 };

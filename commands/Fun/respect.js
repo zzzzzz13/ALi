@@ -17,7 +17,7 @@ module.exports = {
     const rep = await message.channel.send(
       new MessageEmbed()
       .setColor(color)
-      .setFooter(`Press F to pay respect | \©️${new Date().getFullYear()} Alina`)
+      .setFooter(`Press F to pay respect | \©️${new Date().getFullYear()}${client.config.foot}`)
       .setDescription(`${message.member} has paid their respect${args.length ? ` to ${args.join(' ')}.` : ''}`)
     );
 

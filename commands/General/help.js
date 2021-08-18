@@ -1,8 +1,15 @@
-const { MessageEmbed } = require('discord.js');
+
 const text = require('../../util/string');
 const constants = require('../../util/constants');
 const em = require('../../assets/json/emojis.json');
+const { MessageEmbed } = require("discord.js");
 const { readdirSync } = require("fs");
+const Discord = require('discord.js');
+
+const { MessageButton, MessageActionRow } = require("discord-buttons")
+
+
+
 module.exports = {
   name: 'help',
   aliases: [ ],
@@ -20,7 +27,8 @@ module.exports = {
  const { websites } = client.config;
  
  const { color } = client.config;
-     
+ 
+  
   if (!query) {
  
     let group = [];
@@ -82,7 +90,7 @@ module.exports = {
       .setDescription(
         `These are the commands of ${client.user.username} if you want to get more details of a command type\n\`\`\`${client.prefix}help [command name]\`\`\``)
       .setFooter(
-        `Help | \©️${new Date().getFullYear()} Alina`)
+        `Help | \©️${new Date().getFullYear()} ${client.config.foot}`)
       
       .setTimestamp()
       .setColor(color);
@@ -99,7 +107,7 @@ module.exports = {
         .setColor(color)
         .setDescription(command.description)
         .setAuthor(client.prefix + command.name, client.user.displayAvatarURL())
-        .setFooter(`Help | \©️${new Date().getFullYear()} Alina`)
+        .setFooter(`Help | \©️${new Date().getFullYear()} ${client.config.foot}`)
         .addFields([
           { name: 'Aliases', value: text.joinArray(command.aliases) || 'None' , inline: true },
           {
@@ -125,4 +133,4 @@ module.exports = {
       );
     };
   }
-};
+}

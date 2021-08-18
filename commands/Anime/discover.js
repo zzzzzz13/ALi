@@ -27,7 +27,7 @@ module.exports = {
     .setAuthor('Unrecognized Category!','https://cdn.discordapp.com/emojis/767062250279927818.png?v=1')
     .setThumbnail('https://i.imgur.com/qkBQB8V.png')
     .setColor('RED')
-    .setFooter(`Discover | \©️${new Date().getFullYear()} Alina`);
+    .setFooter(`Discover | \©️${new Date().getFullYear()} ${client.config.foot}`);
 
     if (!category || !['anime','manga'].includes(category)){
       return message.channel.send(embed);
@@ -77,7 +77,7 @@ module.exports = {
         `of those genres for you. You get a different ${topic} recommendations daily so don't`,
         'miss the chance to discover every day.'
       ].join(' '))
-      .setFooter(`Discover ${topic}\u2000|\u2000\©️${new Date().getFullYear()} Alina`)
+      .setFooter(`Discover ${topic}\u2000|\u2000\©️${new Date().getFullYear()} ${client.config.foot}`)
       .addFields([
         {
           name: '\u200b',
@@ -105,7 +105,7 @@ module.exports = {
         ].join('\u2000|\u2000'))
         .setDescription((info.studios.nodes || []).slice(0,1).map( x => `[${x.name}](${x.siteUrl})`).join(''))
         .setThumbnail(info.coverImage.large)
-        .setFooter(`Discover ${topic}\u2000|\u2000\©️${new Date().getFullYear()} Alina`)
+        .setFooter(`Discover ${topic}\u2000|\u2000\©️${new Date().getFullYear()} ${client.config.foot}`)
         .addFields([
           {
             name: 'Other Titles',

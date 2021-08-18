@@ -52,7 +52,7 @@ module.exports = {
           new MessageEmbed().setColor(color)
           .setAuthor('Fetch Error','https://cdn.discordapp.com/emojis/767062250279927818.png?v=1')
           .setThumbnail('https://i.imgur.com/qkBQB8V.png')
-          .setFooter(`Animeme | \©️${new Date().getFullYear()} Alina`)
+          .setFooter(`Animeme | \©️${new Date().getFullYear()} ${client.config.foot}`)
           .setDescription(
             `**${message.member.displayName}**, I could not fetch memes from <:reddit:767062345422864394> [r/animemes](https://reddit.com/r/animemes)!\n\n`
               + 'Please report this to the bot owner. The API might be down or there might be changes on the API itself.'
@@ -98,5 +98,5 @@ function embedMeme({ title, ups, downs, link, image, timestamp }){
   .setURL(link)
   .setImage(image)
   .setTimestamp(timestamp)
-  .setFooter(`Animeme | \©️${new Date().getFullYear()} Alina`);
+  .setFooter(`Animeme | \©️${new Date().getFullYear()} ${client.config.foot}`);
 };

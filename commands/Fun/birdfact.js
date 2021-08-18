@@ -28,7 +28,7 @@ module.exports = {
       .setThumbnail('https://i.imgur.com/arkxS3f.gif')
       .setColor(color)
       .setDescription(data.fact)
-      .setFooter(`Birdfact | \©️${new Date().getFullYear()} Alina`)
+      .setFooter(`Birdfact | \©️${new Date().getFullYear()} ${client.config.foot}`)
     );
   }
 };
