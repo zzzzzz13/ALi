@@ -108,6 +108,7 @@ module.exports = class AlinaClient extends Client{
       prefix: settings.prefix || 'a!',
       features: [],
       owners: [],
+      foot: settings.footer,
       color: settings.color,
       channels: { debug: null, uploads: null, logs: null },
       websites: settings.websites

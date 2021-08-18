@@ -17,6 +17,10 @@ module.exports = model('server_profiles', Schema({
       message: { type: String, default: null },
       embed: { type: Object, default: null },
       type: { type: String, default: 'default' }
+    },
+    autorole: {
+      role: { type: Boolean, default: false},
+      
     }
   },
   xp: {

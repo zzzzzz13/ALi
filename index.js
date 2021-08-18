@@ -4,8 +4,7 @@ const { MessageEmbed } = require("discord.js");
 const fs = require('fs');
 const DisTube = require('distube');
 const Client = require(`${process.cwd()}/struct/Alina`);
-const config = require(`${process.cwd()}/config`);
-
+const config = require(`${process.cwd()}/config`);;
 const client = new Client(config);
 
 require("discord-buttons")(client);
@@ -46,7 +45,7 @@ client.distube
             .setColor(color)
             .setDescription(`Added **[${song.name}](${song.url})** - [${song.user}] \`[${song.formattedDuration}]\` to the queue`)
             .setThumbnail(song.thumbnail)
-            .setFooter(`Music | \©️${new Date().getFullYear()} Alina`);
+            .setFooter(`Music | \©️${new Date().getFullYear()} ${client.config.foot}`);
         message.channel.send(embed);
     })
     .on("empty", message => {
@@ -79,9 +78,9 @@ client.distube
     .on("playList", (message, queue, playlist, song) => {
         const embed = new MessageEmbed()
             .setColor(color)
-            .setDescription(`Play **${playlist.title}** playlist (${playlist.total_items} songs)\nNow playing **[${song.name}](${song.url})** [${song.user}] - \`[${song.formattedDuration}]\``)
+            .setDescription(`Play **${playlist.name}** playlist (${playlist.songs.length} songs)\nNow playing **[${song.name}](${song.url})** [${song.user}] - \`[${song.formattedDuration}]\``)
             .setThumbnail(playlist.thumbnail)
-            .setFooter(`Music | \©️${new Date().getFullYear()} Alina`);
+            .setFooter(`Music | \©️${new Date().getFullYear()} ${client.config.foot}`);
         message.channel.send(embed);
     })
     .on("playSong", (message, queue, song) => {
@@ -89,7 +88,7 @@ client.distube
             .setColor(color)
             .setDescription(`Started Playing **[${song.name}](${song.url})** - [${song.user}] \`[${song.formattedDuration}]\``)
             .setThumbnail(song.thumbnail)
-            .setFooter(`Music | \©️${new Date().getFullYear()} Alina`);
+            .setFooter(`Music | \©️${new Date().getFullYear()} ${client.config.foot}`);
         message.channel.send(embed);
     })
     // DisTubeOptions.searchSongs = true
@@ -116,7 +115,7 @@ const options = {
   paths: [
     'Action', 'Anime', 'Info',
     'General', 'Fun', 'Moderation', 'Music',
-    'Owner', 'Setup', 'Social','Utility'
+    'Owner', 'Setup', 'Social', 'Utility'
   ]
 }; 
 
