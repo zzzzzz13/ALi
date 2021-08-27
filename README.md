@@ -33,7 +33,7 @@
   </p>
 </p>
 
-## 🎭 Futures
+## 🎭 Features
 
 - [x] Music
 - [x] Moderation
