@@ -93,10 +93,10 @@ async function reloadMeme(memes,message){
 
 function embedMeme({ title, ups, downs, link, image, timestamp }){
   return new MessageEmbed()
-  .setColor(color)
+  .setColor("#8000ff")
   .setTitle(title)
   .setURL(link)
   .setImage(image)
   .setTimestamp(timestamp)
-  .setFooter(`Animeme | \©️${new Date().getFullYear()} ${client.config.foot}`);
+  .setFooter(`Animeme | \©️${new Date().getFullYear()}`);
 };
