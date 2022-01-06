@@ -8,6 +8,8 @@ const config = require(`${process.cwd()}/config`);;
 const client = new Client(config);
 
 require("discord-buttons")(client);
+ const { SpotifyPlugin } = require("@distube/spotify")
+const { SoundCloudPlugin } = require("@distube/soundcloud")
 const https = require('https-proxy-agent');
 const proxy = 'http://123.123.123.123:8080';
 const agent = https(proxy);
@@ -25,7 +27,8 @@ client.distube = new DisTube(client, {
     searchSongs: false,
     youtubeDL: true,
     updateYouTubeDL: false,
-})
+plugins: [new SpotifyPlugin(), new SoundCloudPlugin()],
+}) 
 
 // DisTube Event
 
