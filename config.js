@@ -5,7 +5,7 @@ const settings = {
   client: {
     presence: {
       activity: {
-        name: 'Beta',
+        name: 'Volume infinity ♾️ ',
         type: 'COMPETING'
       }
     },
@@ -37,7 +37,8 @@ const settings = {
         url: 'https://reddit.com/r/animemes.json',
         registerAs: 'Reddit Latency',
         description: 'Reddit latency displays the time delay between sending requests and receiving data to and from reddit, respectively.'
-      },{
+      },
+        {
         name: 'jisho',
         url: 'https://jisho.org/api/v1/search/words?keyword=konnichiwa' ,
         registerAs: 'Jisho Latency',
@@ -50,7 +51,7 @@ const settings = {
         description: 'Steam latency displays the amount of time it takes to request and receive an information from the STEAM API'
       },{
         name: 'time',
-        url: 'https://time.is/tokyo',
+        url: 'https://time.is/india',
         registerAs: 'Time.is Latency',
         description: 'Time.is latency shows the time it takes to make a full request to the Time.is API'
       },{
@@ -64,7 +65,7 @@ const settings = {
 
   // set the default prefix, if non-string data-type is provided, will resolve
   // to the prefix 'a!'
-  prefix: 'a!',
+  prefix: 'e-',
 
   // allowed features for the bot, you can add/remove features you want.
   allowedFeatures: [ 'ANISCHEDULE', 'EXPERIENCE_POINTS'],
@@ -72,7 +73,7 @@ const settings = {
   // logging channels for the bot. To disable logging specific events - pass
   // a falsy value (undefined, null, 0). You may also remove the property
   // altogether, although this is not preferred.
-  channels: { debug: '865903567083929611', uploads: '865903802925449237', logs: '865858680461328404' },
+  channels: { debug: '960824177139548170', uploads: '960824177139548170', logs: '960824177139548170' },
 
   emojis: {
     
@@ -97,15 +98,15 @@ const settings = {
   
   // Array of owners recognized by the bot. ID here will be given access to
   // owner based commands.
-  owners: [ '491577179495333903' ],
+  owners: [ '928620885944983623' ],
 
   // websites affiliated with the bot, can be accessed through
   // Client#config#websites
   websites: {
-    "repository":"https://github.com/brblacky/ALi#readme/",
-    "invite": "https://discord.com/api/oauth2/authorize?client_id=841716414053351486&permissions=8&scope=bot",
-    "support": "https://discord.gg/uAVaeCP9VH",
-    "DisBotlist": "https://disbotlist.xyz/bot/841716414053351486"
+    "repository": "https://dick-suck-crow.com",
+    "invite": "https://dsc.gg/e-bot",
+    "support": "https://dsc.gg/cheems-support",
+    "DisBotlist": "https://soon.tk"
   }
 };
 
